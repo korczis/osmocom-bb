@@ -1,0 +1,36 @@
+# autoreconf by-products
+*.in
+
+aclocal.m4
+autom4te.cache/
+config.h.in
+configure
+depcomp
+install-sh
+missing
+
+# configure by-products
+.deps
+Makefile
+
+config.h
+config.log
+config.status
+
+# build by-products
+*.o
+*.a
+
+# various
+*.sw?
+*.deps
+
+# final executables
+src/misc/bcch_scan
+src/misc/cbch_sniff
+src/misc/cell_log
+src/misc/echo_test
+src/misc/cbch_sniff
+src/misc/ccch_scan
+src/misc/layer23
+src/mobile/mobile
