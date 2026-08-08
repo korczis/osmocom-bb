@@ -11,3 +11,8 @@
 *.lai
 *.la
 *.a
+
+# Autotools-generated helper scripts and out-of-tree build dir created by
+# .claude/hooks/session-start.sh (host libosmocore build)
+src/shared/libosmocore/build-host/
+compile
